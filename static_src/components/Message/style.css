@@ -1,0 +1,8 @@
+.message-field {
+	display: flex;
+	flex-direction: column;
+	background-color: lightblue;
+	padding: 0 15px 5px 15px;
+	min-width: 150px;
+	border-radius: 8px;
+  }
