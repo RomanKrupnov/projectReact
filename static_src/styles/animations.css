@@ -1,0 +1,21 @@
+.blink_me {
+	animation: blinker 2s linear 1s;
+}
+
+@keyframes blinker {
+	25% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	75% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
